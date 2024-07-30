@@ -44,7 +44,7 @@ export const ProfileForm = () => {
           label="Phone"
           labelClassName="col-span-2"
           name="phone"
-          placeholder="(123)456-7890"
+          placeholder="+91-1234567890"
           value={phone}
           onChange={handleProfileChange}
         />

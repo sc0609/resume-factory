@@ -64,7 +64,7 @@ export const WorkExperiencesForm = () => {
               label="Date"
               labelClassName="col-span-2"
               name="date"
-              placeholder="Jun 2022 - Present"
+              placeholder="Jun 2024 - Present"
               value={date}
               onChange={handleWorkExperienceChange}
             />
