@@ -26,7 +26,7 @@ const TESTIMONIALS = [
     src: testimonialVivianSrc,
     quote:
       "Creating a professional resume on OpenResume is so smooth and easy! It saves me so much time and headache to not deal with google doc template.",
-    name: "Vivian",
+    name: "Vivek",
     title: "College Student",
   },
 ];
