@@ -8,18 +8,18 @@ import { Link } from "components/documentation";
 const FEATURES = [
   {
     src: featureFreeSrc,
-    title: "Free Forever",
-    text: "OpenResume is created with the belief that everyone should have free and easy access to a modern professional resume design",
+    title: "Free of Charge Forever",
+    text: "The idea behind ResumeFactory was that everyone should be able to get a current, professional resume for free and without much trouble.",
   },
   {
     src: featureUSSrc,
-    title: "U.S. Best Practices",
-    text: "OpenResume has built-in best practices for the U.S. job market and works well with top ATS platforms such as Greenhouse and Lever",
+    title: "Best Practices",
+    text: "With its integrated best practices for the job market, ResumeFactory integrates seamlessly with leading applicant tracking systems like Greenhouse and Lever.",
   },
   {
     src: featurePrivacySrc,
-    title: "Privacy Focus",
-    text: "OpenResume stores data locally in your browser so only you have access to your data and with complete control",
+    title: "Privacy Focused",
+    text: "ResumeFactory saves data locally in your browser so that you are the only one with access to it and total control.",
   },
   {
     src: featureOpenSourceSrc,
