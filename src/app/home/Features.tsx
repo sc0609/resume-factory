@@ -26,9 +26,9 @@ const FEATURES = [
     title: "Open-Source",
     text: (
       <>
-        OpenResume is an open-source project, and its source code can be viewed
-        by anyone on its{" "}
-        <Link href="https://github.com/xitanggg/open-resume">
+        Since ResumeFactory is an open-source project, anyone can access 
+        its source code on its{" "}
+        <Link href="https://github.com/sc0609/resume-factory">
           GitHub repository
         </Link>
       </>

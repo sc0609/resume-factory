@@ -10,10 +10,10 @@ export const Hero = () => {
         <h1 className="text-primary pb-2 text-4xl font-bold lg:text-5xl">
           Create a professional
           <br />
-          resume easily
+          resume in just a few steps
         </h1>
         <p className="mt-3 text-lg lg:mt-5 lg:text-xl">
-          With this free, open-source, and powerful resume builder
+          With this free  and powerful resume builder
         </p>
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
           Create Resume <span aria-hidden="true">→</span>
