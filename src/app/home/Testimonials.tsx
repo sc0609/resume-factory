@@ -12,14 +12,14 @@ const TESTIMONIALS = [
     src: testimonialSpiegelSrc,
     quote:
       "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. OpenResume’s auto format feature is a great help to ensure consistent format.",
-    name: "Ms. Spiegel",
+    name: "Mr. Shende",
     title: "Educator",
   },
   {
     src: testimonialSantiSrc,
     quote:
       "I used OpenResume during my last job search and was invited to interview at top tech companies such as Google and Amazon thanks to its slick yet professional resume design.",
-    name: "Santi",
+    name: "Santosh",
     title: "Software Engineer",
   },
   {
