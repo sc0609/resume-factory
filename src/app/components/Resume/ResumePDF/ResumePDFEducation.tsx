@@ -42,7 +42,7 @@ export const ResumePDFEducation = ({
               >
                 <ResumePDFText>{`${
                   gpa
-                    ? `${degree} - ${Number(gpa) ? gpa + " GPA" : gpa}`
+                    ? `${degree} - ${Number(gpa) ? gpa + " gpa" : gpa}`
                     : degree
                 }`}</ResumePDFText>
                 <ResumePDFText>{date}</ResumePDFText>

@@ -107,7 +107,7 @@ export const ResumeParserAlgorithmArticle = ({
         Resume Parser Algorithm Deep Dive
       </Heading>
       <Paragraph smallMarginTop={true}>
-        For the technical curious, this section will dive into the OpenResume
+        For the technical curious, this section will dive into the Resume Factory
         parser algorithm and walks through the 4 steps on how it works. (Note
         that the algorithm is designed to parse single column resume in English
         language)
@@ -346,7 +346,7 @@ export const ResumeParserAlgorithmArticle = ({
         the main heuristic doesn't apply to check if the text item is bolded.
       </Paragraph>
       <Paragraph>
-        And that is everything about the OpenResume parser algorithm :)
+        And that is everything about the Resume Factory parser algorithm :)
       </Paragraph>
       <Paragraph>
         Written by <Link href="https://github.com/xitanggg">Xitang</Link> on
@@ -394,7 +394,7 @@ const step4CoreFeatureFunctionTable = [
   ["Url", "Match url format xxx.xxx/xxx", "/\\S+\\.[a-z]+\\/\\S+/"],
   ["School", "Contains a school keyword, e.g. College, University, School", ""],
   ["Degree", "Contains a degree keyword, e.g. Associate, Bachelor, Master", ""],
-  ["GPA", "Match GPA format x.xx", "/[0-4]\\.\\d{1,2}/"],
+  ["gpa", "Match gpa format x.xx", "/[0-4]\\.\\d{1,2}/"],
   [
     "Date",
     "Contains date keyword related to year, month, seasons or the word Present",

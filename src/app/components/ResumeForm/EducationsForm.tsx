@@ -74,7 +74,7 @@ export const EducationsForm = () => {
               onChange={handleEducationChange}
             />
             <Input
-              label="CGPA"
+              label="Cgpa"
               labelClassName="col-span-2"
               name="gpa"
               placeholder="7.81"

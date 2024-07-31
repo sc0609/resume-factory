@@ -32,3 +32,9 @@
   --resume-control-bar-height: 3rem;
   --resume-padding: 1.5rem;
 }
+
+.zoomed-element {
+  zoom: 1.8;
+  -moz-transform: scale(1.8);
+  -webkit-transform: scale(1.8);
+}

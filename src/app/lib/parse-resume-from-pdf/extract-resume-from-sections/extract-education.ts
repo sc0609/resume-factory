@@ -22,7 +22,7 @@ import {
  *              Unique Attribute
  * School       Has school
  * Degree       Has degree
- * GPA          Has number
+ * gpa          Has number
  */
 
 // prettier-ignore
@@ -34,7 +34,7 @@ const DEGREES = ["Associate", "Bachelor", "Master", "PhD", "Ph."];
 const hasDegree = (item: TextItem) =>
   DEGREES.some((degree) => item.text.includes(degree)) ||
   /[ABM][A-Z\.]/.test(item.text); // Match AA, B.S., MBA, etc.
-const matchGPA = (item: TextItem) => item.text.match(/[0-4]\.\d{1,2}/);
+const matchgpa = (item: TextItem) => item.text.match(/[0-4]\.\d{1,2}/);
 const matchGrade = (item: TextItem) => {
   const grade = parseFloat(item.text);
   if (Number.isFinite(grade) && grade <= 110) {
@@ -55,8 +55,8 @@ const DEGREE_FEATURE_SETS: FeatureSet[] = [
   [hasNumber, -3],
 ];
 
-const GPA_FEATURE_SETS: FeatureSet[] = [
-  [matchGPA, 4, true],
+const gpa_FEATURE_SETS: FeatureSet[] = [
+  [matchgpa, 4, true],
   [matchGrade, 3, true],
   [hasComma, -3],
   [hasLetter, -4],
@@ -79,7 +79,7 @@ export const extractEducation = (sections: ResumeSectionToLines) => {
     );
     const [gpa, gpaScores] = getTextWithHighestFeatureScore(
       textItems,
-      GPA_FEATURE_SETS
+      gpa_FEATURE_SETS
     );
     const [date, dateScores] = getTextWithHighestFeatureScore(
       textItems,

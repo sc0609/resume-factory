@@ -13,7 +13,7 @@ export const END_HOME_RESUME: Resume = {
     summary:
       "Software engineer obsessed with building exceptional products that people love",
     email: "hello@resumefactory.netlify.app",
-    phone: "+91 1234567890",
+    phone: "+911234567890",
     location: "Nagpur, Maharashtra",
     url: "linkedin.com/in/john-doe",
   },
