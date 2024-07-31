@@ -9,12 +9,12 @@ import { deepClone } from "lib/deep-clone";
 
 export const END_HOME_RESUME: Resume = {
   profile: {
-    name: "John Doe",
+    name: "John Wicks",
     summary:
       "Software engineer obsessed with building exceptional products that people love",
-    email: "hello@openresume.com",
+    email: "hello@resumefactory.netlify.app",
     phone: "123-456-7890",
-    location: "NYC, NY",
+    location: "Nagpur, Maharashtra",
     url: "linkedin.com/in/john-doe",
   },
   workExperiences: [
@@ -51,22 +51,22 @@ export const END_HOME_RESUME: Resume = {
   educations: [
     {
       school: "XYZ University",
-      degree: "Bachelor of Science in Computer Science",
-      date: "Sep 2019 - May 2023",
-      gpa: "3.8",
+      degree: "Bachelor of Technology in Engineering ",
+      date: "Sep 2021 - May 2025",
+      gpa: "7.5",
       descriptions: [
-        "Won 1st place in 2022 Education Hackathon, 2nd place in 2023 Health Tech Competition",
-        "Teaching Assistant for Programming for the Web (2022 - 2023)",
-        "Coursework: Object-Oriented Programming (A+), Programming for the Web (A+), Cloud Computing (A), Introduction to Machine Learning (A-), Algorithms Analysis (A-)",
+        "Achieved first place in the Health Tech Challenge and second place in the Education Hackathon in 2023.",
+        "Classroom Assistant in Web Development (2022–2023) ",
+        "Coursework : Object-oriented programming (A+), programming for the web (A+), cloud computing (A), algorithm analysis (A-) and machine learning basics (A-)",
       ],
     },
   ],
   projects: [
     {
-      project: "OpenResume",
-      date: "Spring 2023",
+      project: "ResumeFactory",
+      date: "Summer 2024",
       descriptions: [
-        "Created and launched a free resume builder web app that allows thousands of users to create professional resume easily and land their dream jobs",
+        "Built and released a free web app that helps thousands of people easily make a professional resume to obtain the jobs they want.",
       ],
     },
   ],
@@ -74,13 +74,13 @@ export const END_HOME_RESUME: Resume = {
     featuredSkills: [
       { skill: "HTML", rating: 4 },
       { skill: "CSS", rating: 4 },
-      { skill: "Python", rating: 3 },
+      { skill: "Python", rating: 4 },
       { skill: "TypeScript", rating: 3 },
       { skill: "React", rating: 3 },
-      { skill: "C++", rating: 2 },
+      { skill: "C++", rating: 3 },
     ],
     descriptions: [
-      "Tech: React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
+      "Tech: React Hooks, Node.js, SQL, Postgres, Redis, REST API, Git",
       "Soft: Teamwork, Creative Problem Solving, Communication, Learning Mindset, Agile",
     ],
   },
